@@ -1,0 +1,24 @@
+/*
+The main SCSS file importing everything
+*/
+
+//= require highlightjs/styles/default
+
+// Make sure the charset is set appropriately.
+@charset "UTF-8";
+
+// Customized Global Foundation Settings
+@import "_settings";
+
+// Import Foundation
+@import "../../_bower_components/foundation-sites/scss/foundation";
+
+// Load this when using social buttons.
+//<%= '@import social-buttons' if site.config['social'] %>
+
+// Fix Gist layout issue with Foundation.
+// div.gist table
+//   table-layout: initial
+
+// @import "poole";
+@import "syntax";
