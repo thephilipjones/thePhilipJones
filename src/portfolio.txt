@@ -1,0 +1,86 @@
+Portfolio
+# Logi Analytics: Web App Development
+The Web App Development team (or, unflatteringly, “WAD” team) hired me .
+## Info
+Bootstrap
+## Ad Hoc
+Ad Hoc 11 was never intended to be much. Working on Sales Engineering’s Web team
+
+
+
+I was even asked to throw together a header logo that would fit in the same footprint as the old one—a mere 180x35px. Without the benefit of an Adobe suite license, I’ll admit it was done in Paint.NET on the Lenovo workstation from the SE team.
+
+
+
+(Isn’t that just darling.)
+
+Ad Hoc 11 was released to positive reactions from our existing customers, and elation from the sales team sitting across the cubes from me who finally had something not-god-awful to sell. Orders started accelerating, and the release of Ad Hoc 11 was a key factor in hitting our targets for the quarter and the year.
+
+I went back to supporting sales engineers and working on demo assets. But I had gotten a taste of “the Product side”, and if they had noticed me before, now they needed me.
+
+I had seen the capabilities of this product, and it was frustrating that our scope was so limited for this quick release. I began dreaming of a new beginning. And it eventually led me into the UX team.
+
+The team that had been thrown together (yes, very "ad hoc”) began grousing about the limitations of the current version. After so many iterations, there were fundamental concepts that had strayed from what may have once been focused features, and a codebase that had gotten too big for its britches with the weight of the entire Info engine behind it.
+
+I did a gap analysis of the product, keeping in mind the requirements and other contextual considerations. I came up with design principles to follow, design challenges to solve, and design ideas to explore. I mused over back-end repercussions and pored through front-end libraries to propose a full stack of modern components.
+
+< Logi Ad Hoc UI Recommendations.html >
+
+Then, (like I do), I started whiteboarding. Those sketches turned into Balsamiq wireframes. And those wireframes turned into click-through flows and information architecture overviews.
+
+< Ad Hoc 12.pdf >
+
+Product and Engineering team members were interested, but my
+# Logi Analytics: User Interface and User Experience
+Management had seen that the product line had fallen behind the competition by staffing only a single in-house visual designer and a rotating cast of a single interaction designer at a time. In an effort to “catch up”, they hired another graphic-focused designer and a jack-of-all-trades contract designer who had actually been making a living selling custom solutions using our software for years.
+
+Then there was me. With my technical background from a year in the guts of the Info platform, and the UX background I’d brought from school and past experience, I finally put “UX Designer” on my business card. (Purely figuratively, of course. No reason to receive updated business cards if they didn’t expect us to travel or meet anyone professionally.)
+
+One weird thing is that the UX team doesn’t have its own leverage in the leadership. And between the two, we don’t even report to Product, but actually to Engineering. For the first year, the four of us each directly reported to the SVP, whose involvement went as far as brusque weekly meetings and a surface-deep commitment to design.
+
+I began with instructions to crank out Info icons and clean up nasty theme CSS. I quickly realized that Engineering saw us as a “UI” team, not a "UX” team. Fortunately, there was another area in which we’d fallen behind the competition: Self-Service.
+## InfoGO
+  Entire process, prototypes
+  I was brought on
+
+  Final product
+## Discovery
+While all of this was going on, while the Info platform chugs along producing revenue, one of the Sales Engineering managers that I was close to came over to Product at the same time. He had a vision. A modular platform of mix-and-match interconnected components that could prepare to satisfy everything we had been devising to accommodate the needs we’d heard in the field from customers and prospects.
+
+Can you guess the main modules you’d need to satisfy Business Intelligence needs of 2015 and beyond? How about a custom visualization library, driven by a widget that can turn simple instructions into a series of recommended charts. How about driving that chart from a fully-customizable analysis table? How about sky<limit building blocks like individually encapsulated "column pills” and containers to hold them? And naturally, your web developers don’t want to deal with interfacing this to a bunch of different databases, so we’ll take care of all of that for ya: just pass anything you can think of through our Data Services "glue”.
+
+The role I played in all of this has escalated throughout the project. I joined the UX team and began working on Info, but I was called in with the two Product Managers to ideate about data curation.
+
+< Turn 20140411 NGP DA.pdf and 201409–201411 folder into 3 slideshows >
+
+These are obviously extremely rough
+
+Through the creation of these ideas, I began to crystallize the approach that I would guide in a presentation that summarized the big interaction and architecture concepts.
+
+< 20140225 NGP Data.pdf >
+
+As soon as this began to evolve, I was called back to Info. We needed a Self-Service solution, and we apparently needed it not just yesterday, but a year ago…
+
+However, the wheels kept turning. By my next brush with the project, I was thinking big picture. How do all these pieces relate? How are they mapped? What do they mean, individually and together? I began coming up with brand-new concepts of the sort that the platform was meant to be molded into.
+
+
+
+< NGP.png>
+
+By Fall 2014, it was time to get back to Balsamiq. I produced more series of mockups iterating on details of the data curation problem. I attended meetings excitedly espousing the ways we would prototype and test these concepts on users.
+
+*trainwreck sound*
+
+Engineering leadership had had enough. Seemingly overnight, it was decided that we needed to fork Vision, our fledgling new web-based data analysis product, to shoehorn the code into this full data provider application. We would start coding within a month, and needed picture-perfect mockups immediately. Without any design leadership leverage, our team lead was left to draw exactly what Engineering instructed. I recognized the political situation and did my best to take these ideas back into the land of consistency, modern interactions, and thoughtfulness towards the user.
+
+< 20141217 DataAuthoringUpdate_12_17.pptx >
+< 20150115 DataAuthoringUpdate_01_15 >
+< 20150121 >
+
+Of course, fixing up a 130-layer Adobe Illustrator file to convey the flow of the app wasn’t all I felt obligated to do. I put together Balsamiq mockups to suggest mobile versions, minimalist versions, even Material Design versions. In the end, we sat down with a dozen stakeholders, hashed out every little detail of the nice Illustrator files… and then shelved them to be "aimed for in the future”.
+
+DataHub was indeed forked from Vision. A few features were added. More were removed. And that original vision is to this day being re-re-re-confirmed between the UX team and Product Management. Some say you can still see the mockups, wireframes, and prototypes being tweaked to this day if you look through the office windows late at night.
+
+## Ideas
+Query Builders
+Answers

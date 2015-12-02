@@ -8,10 +8,11 @@ The main SCSS file importing everything
 @charset "UTF-8";
 
 // Customized Global Foundation Settings
-@import "_settings";
+@import "settings";
 
 // Import Foundation
-@import "../../_bower_components/foundation-sites/scss/foundation";
+@import "foundation";
+@include foundation-everything;
 
 // Load this when using social buttons.
 //<%= '@import social-buttons' if site.config['social'] %>
@@ -22,3 +23,5 @@ The main SCSS file importing everything
 
 // @import "poole";
 @import "syntax";
+
+@import "resume";

@@ -1,0 +1,31 @@
+.resume {
+  margin-top: 3rem;
+
+  header {
+    width: 36rem;
+    margin: 3rem auto 0;
+  }
+
+  section {
+    width: 36rem;
+    margin: 3rem auto 0;
+  }
+
+  .section__header {
+    margin: 6rem 0 3rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 1;
+  }
+
+  .section__list {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 4.5rem;
+    }
+  }
+
+}

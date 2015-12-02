@@ -15,6 +15,8 @@ var merge = require("merge-stream");
 var reload = browserSync.reload;
 // And define a variable that BrowserSync uses in it"s function
 var bs;
+// Define an easy way to access Bower files
+var mainBowerFiles = require('main-bower-files');
 
 // Deletes the directory that is used to serve the site during development
 gulp.task("clean:dev", del.bind(null, ["serve"]));
@@ -38,7 +40,14 @@ gulp.task("jekyll:prod", $.shell.task("jekyll build --config _config.yml,_config
 gulp.task("styles", function () {
   // Looks at the style.scss file for what to include and creates a style.css file
   return gulp.src("src/assets/scss/style.scss")
-    .pipe($.sass())
+    .pipe($.sass({
+      includePaths: ['src/_bower_components/foundation-sites/scss', 'src/assets/scss'],
+      style: 'nested'
+      //,bundleExec: true
+    }))
+    .on('error', function(e) {
+      console.log(e);
+    })
     // AutoPrefix your CSS so it works between browsers
     .pipe($.autoprefixer("last 1 version", { cascade: true }))
     // Directory your CSS file goes to
@@ -48,6 +57,15 @@ gulp.task("styles", function () {
     .pipe($.size({title: "styles"}))
     // Injects the CSS changes to your browser since Jekyll doesn"t rebuild the CSS
     .pipe(reload({stream: true}));
+});
+
+//Compile JS (including Bower)
+gulp.task('scripts', function () {
+    // var foundation = './serve/assets/javascript/';
+    return gulp.src('app/scripts/**/*.js')
+        .pipe($.jshint())
+        .pipe($.jshint.reporter(require('jshint-stylish')))
+        .pipe($.size());
 });
 
 // Optimizes the images that exists
@@ -142,6 +160,7 @@ gulp.task("serve:dev", ["styles", "jekyll:dev"], function () {
 gulp.task("watch", function () {
   gulp.watch(["src/**/*.md", "src/**/*.html", "src/**/*.xml", "src/**/*.txt", "src/**/*.js"], ["jekyll-rebuild"]);
   gulp.watch(["serve/assets/stylesheets/*.css"], reload);
+  // gulp.watch(["src/assets/scripts/**/*.js", ["scripts"]);
   gulp.watch(["src/assets/scss/**/*.scss"], ["styles"]);
 });
 
