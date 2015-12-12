@@ -64,6 +64,9 @@ test/
 serve
 site
 
+# Compiled stylesheets
+src/assets/stylesheets
+
 # hide the AWS and Rsync credentials file
 aws-credentials.json
 rsync-credentials.json
