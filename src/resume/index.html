@@ -4,19 +4,31 @@ title: Resume
 ---
 
 <div class="resume">
-  <header>
+  <header class="show-for-print">
     <div class="name">Philip Jones</div>
   </header>
   <section class="workplaces">
     <h2 class="section__header">Work Experience</h2>
     <ul class="section__list">
-      {% for post in site.categories['resume', 'workplaces'] %}
+      {% for post in site.categories['workplace'] %}
         <li class="section__item workplace">
-          <h1 class="workplace__org">{{ post.org }}</h1>
-          <h2 class="workplace__title">{{ post.title }}</h2>
-            <span class="workplace__date">{{ post.date | date_to_string }}</span>—
-            <span class="workplace__date">{{ post.to-date | date_to_string }}</span>
+          <div class="workplace__primary">
+            <a class="workplace__org" href={{ post.link }} target="_blank">
+              <h3>{{ post.org }}</h3>
+            </a>
+            <span class="workplace__location">{{ post.location }}</span>
+          </div>
+          <p class="workplace__secondary">
+            <span class="workplace__title">{{ post.title }}</span>
+            <span class="workplace__date">
+              <span>{{ post.date | date_to_string }}</span>
+              <span> – </span>
+              <span>{{ post.to-date | date_to_string }}</span>
+            </span>
+          </p>
+          <div class="workplace__content">
             {{ post.content }}
+          </div>
         </li>
       {% endfor %}
     </ul>
@@ -24,13 +36,25 @@ title: Resume
   <section class="schools">
     <h2 class="section__header">Education</h2>
     <ul class="section__list">
-      {% for post in site.categories['resume', 'schools'] %}
+      {% for post in site.categories['school'] %}
         <li class="section__item school">
-          <h1 class="school__org">{{ post.org }}</h1>
-          <h2 class="school__title">{{ post.title }}</h2>
-            <span class="school__date">{{ post.date | date_to_string }}</span>—
-            <span class="school__date">{{ post.to-date | date_to_string }}</span>
+          <div class="school__primary">
+            <a class="school__org" href={{ post.link }} target="_blank">
+              <h3>{{ post.org }}</h3>
+            </a>
+            <span class="school__location">{{ post.location }}</span>
+          </div>
+          <p class="school__secondary">
+            <span class="school__title">{{ post.title }}</span>
+            <span class="school__date">
+              <span>{{ post.date | date_to_string }}</span>
+              <span> – </span>
+              <span>{{ post.to-date | date_to_string }}</span>
+            </span>
+          </p>
+          <div class="school__content">
             {{ post.content }}
+          </div>
         </li>
       {% endfor %}
     </ul>
