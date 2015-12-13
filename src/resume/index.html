@@ -7,7 +7,7 @@ title: Resume
   <header class="show-for-print">
     <h1 class="name">Philip Jones</h1>
   </header>
-  <section class="workplaces">
+  <section class="workplaces" id="work">
     <h2 class="section__header">Work Experience</h2>
     <ul class="section__list">
       {% for post in site.categories['workplace'] %}
@@ -39,7 +39,7 @@ title: Resume
       {% endfor %}
     </ul>
   </section>
-  <section class="schools">
+  <section class="schools" id="education">
     <h2 class="section__header">Education</h2>
     <ul class="section__list">
       {% for post in site.categories['school'] %}
