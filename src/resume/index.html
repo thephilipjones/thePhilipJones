@@ -13,7 +13,7 @@ title: Resume
       <li><a href="#">Save PDF</a></li>
     </ul>
   </div>
-  <section class="workplaces">
+  <section class="workplaces" id="work">
     <h2 class="section__header">Work Experience</h2>
     <ul class="section__list">
       {% for post in site.categories['workplace'] %}
@@ -45,7 +45,7 @@ title: Resume
       {% endfor %}
     </ul>
   </section>
-  <section class="schools">
+  <section class="schools" id="education">
     <h2 class="section__header">Education</h2>
     <ul class="section__list">
       {% for post in site.categories['school'] %}
