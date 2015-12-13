@@ -74,4 +74,21 @@
     }
   }
 
+  .skill {
+    background: $light-gray;
+    padding: 0.25rem 0.5rem;
+    white-space: nowrap;
+
+    @media print {
+      & {
+        background: transparent;
+        padding: inherit;
+      }
+    }
+
+    &:hover {
+      background: darken($light-gray, 10%);
+    }
+  }
+
 }

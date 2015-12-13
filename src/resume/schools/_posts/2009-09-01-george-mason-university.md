@@ -9,20 +9,20 @@ title: MA, Psychology&#58; Human Factors and Applied Cognition
 categories: resume school
 ---
 
-Systems Design and Cognitive Engineering
+Systems Design and Cognitive Engineering:
 
 - Systems engineering from research > modeling > requirement definition > domain/context analysis > architecture
 - Interface design from personas and "goal-directed context scenarios"
 - Usability testing and observation and other task analyses
 
-Interaction Behaviors
+Interaction Behaviors:
 
 - Search
 - Navigation/wayfinding
 - Information architecture
 - Ingrained expectations
 
-Human Performance
+Human Performance:
 
 - Attention and vigilance
 - Perception
@@ -34,7 +34,7 @@ Human Performance
 - Memory
 - Errors
 
-Task Analysis
+Task Analysis:
 
 - Observation and interviews
 - Card sorting
@@ -42,9 +42,9 @@ Task Analysis
 - Cognitive task analyses
 - GOMS/KLM
 
-Statistics and Research
+Statistics and Research:
 
 - Exploratory data analysis
 - ANOVA, multiple regression, chi-square, many other types
 
-ACM Special Interest Group on Computer-Human Interaction: GMU Student Chapter President (2010-2011)
+Student Chapter President (2010-2011): ACM Special Interest Group on Computer-Human Interaction
