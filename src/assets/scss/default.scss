@@ -23,7 +23,7 @@ $header-size-medium: 4rem;
 .hero {
   text-align: center;
   // background: url('https://static.pexels.com/photos/6894/summer-photographer-pier-adventure-large.jpg') no-repeat center center;
-  background: url('../images/header-golf.jpg') no-repeat center center;
+  background: url('/assets/images/header-golf.jpg') no-repeat center center;
   background-size: cover;
   -webkit-transform: translate3d(0, 0, 0);
   padding: $header-size-small 1rem;
