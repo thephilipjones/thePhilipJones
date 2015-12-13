@@ -3,14 +3,15 @@
 
 # TEAM
 
-    Philip -- <role> -- @twitter.com/thephilipjones
+    Philip -- Creator -- @twitter.com/thephilipjones
 
 # THANKS
 
-    <name>
+    Entypo pictograms by Daniel Bruce — www.entypo.com
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3, JavaScript
-    Jekyll, Lanyon/Poole, HTML5 Boilerplate
-    Yeoman, Jekyllized
+    Jekyll, a little HTML5 Boilerplate
+    Yeoman, Jekyllized, Gulp, Node, etc
+    Foundation, Entypo
