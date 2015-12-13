@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://philipjon.es//</loc>
+    <lastmod>2015-12-13T02:51:22-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+    <url>
+      <loc>http://philipjon.es//jekyll/2014/03/03/welcome-to-jekyll.html</loc>
+      
+        <lastmod>2014-03-03T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://philipjon.es//jekyll/poole/2014/03/02/introducing-poole.html</loc>
+      
+        <lastmod>2014-03-02T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://philipjon.es//resume/workplaces/workplace/2014/01/01/logi-analytics-ux-designer.html</loc>
+      
+        <lastmod>2014-01-01T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://philipjon.es//resume/workplaces/workplace/2012/12/03/logi-analytics-web-app-developer.html</loc>
+      
+        <lastmod>2012-12-03T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://philipjon.es//resume/workplaces/workplace/2010/01/10/metron-aviation-human-factors-analyst.html</loc>
+      
+        <lastmod>2010-01-10T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://philipjon.es//resume/schools/school/2009/09/01/george-mason-university.html</loc>
+      
+        <lastmod>2009-09-01T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://philipjon.es//resume/workplaces/workplace/2009/09/01/freelance.html</loc>
+      
+        <lastmod>2009-09-01T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://philipjon.es//resume/schools/school/2006/08/15/american-university.html</loc>
+      
+        <lastmod>2006-08-15T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://philipjon.es//resume/schools/school/2002/08/15/enloe-high-school.html</loc>
+      
+        <lastmod>2002-08-15T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+  
+  <url>
+    <loc>http://philipjon.es//404.html</loc>
+    
+      <lastmod>2015-12-13T02:51:22-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://philipjon.es//about.html</loc>
+    
+      <lastmod>2015-12-13T02:51:22-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://philipjon.es//atom.xml</loc>
+    
+      <lastmod>2015-12-13T02:51:22-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://philipjon.es//resume/index.html</loc>
+    
+      <lastmod>2015-12-13T02:51:22-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://philipjon.es//projects/index.html</loc>
+    
+      <lastmod>2015-12-13T02:51:22-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://philipjon.es//index.html</loc>
+    
+      <lastmod>2015-12-13T02:51:22-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://philipjon.es//sitemap.xml</loc>
+    
+      <lastmod>2015-12-13T02:51:22-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+</urlset>
