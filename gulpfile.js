@@ -17,6 +17,8 @@ var reload = browserSync.reload;
 var bs;
 // Define an easy way to access Bower files
 var mainBowerFiles = require('main-bower-files');
+// Define the plugin to generate a static asset revision hash
+var RevAll = require('gulp-rev-all');
 // Define the plugin to push to gh-pages
 var ghPages = require('gulp-gh-pages');
 
@@ -24,7 +26,10 @@ var ghPages = require('gulp-gh-pages');
 gulp.task("clean:dev", del.bind(null, ["serve"]));
 
 // Deletes the directory that the optimized site is output to
-gulp.task("clean:prod", del.bind(null, ["site"]));
+gulp.task("clean:prod", function(cb) {
+  del.bind(null, ["site"]);
+  // cb(err);
+});
 
 // Runs the build command for Jekyll to compile the site locally
 // This will build the site with the production settings
@@ -108,13 +113,9 @@ gulp.task("html", ["styles"], function () {
     .pipe($.if("*.js", $.uglify({preserveComments: "some"})))
     // Minify CSS
     .pipe($.if("*.css", $.minifyCss()))
-    // Start cache busting the files
-    .pipe($.revAll({ ignore: [".eot", ".svg", ".ttf", ".woff"] }))
     .pipe(assets.restore())
     // Conctenate your files based on what you specified in _layout/header.html
     .pipe($.useref())
-    // Replace the asset names with their cache busted names
-    .pipe($.revReplace())
     // Minify HTML
     .pipe($.if("*.html", $.htmlmin({
       removeComments: true,
@@ -130,6 +131,17 @@ gulp.task("html", ["styles"], function () {
     .pipe($.size({title: "optimizations"}));
 });
 
+gulp.task("rev", function () {
+  var revAll = new RevAll({ dontRenameFile: [/^\/favicon.ico$/g, '.html'] });
+  gulp.src('serve/**')
+    // Start cache busting the files
+    .pipe(revAll.revision())
+    .pipe(gulp.dest('site'));
+    // .pipe(revAll.manifestFile())
+    // .pipe(revAll)
+    // Replace the asset names with their cache busted names
+    //.pipe($.revReplace())
+});
 
 
 // Run JS Lint against your JS
@@ -190,9 +202,15 @@ gulp.task("build", ["jekyll:prod", "styles"], function () {});
 
 // Builds your site with the "build" command and then runs all the optimizations on
 // it and outputs it to "./site"
-gulp.task("publish", ["build"], function () {
-  gulp.start("html", "copy", "images", "fonts");
+gulp.task("publish", ["build", "html", "copy", "images", "fonts"], function () {
+//  gulp.start("html", "copy", "images", "fonts");
 });
+
+gulp.task("publish:clean", ["clean:prod", "publish"], function () {});
+
+gulp.task("publish:fresh", ["clean:prod", "publish", "serve:prod", "watch"], function () {});
+
+gulp.task("publish:serve", ["publish", "serve:prod", "watch"], function () {});
 
 gulp.task("deploy", ["publish"], function() {
   return gulp.src("./site/**/*")
