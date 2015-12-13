@@ -199,5 +199,5 @@ gulp.task('deploy', ["publish"], function() {
     .pipe(ghPages([
       {remoteUrl: 'git@github.com:thephilipjones/thephilipjones.github.io.git'},
       {branch: 'master'}
-    ));
+    ]));
 });
