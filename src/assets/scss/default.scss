@@ -33,9 +33,23 @@ $header-size-medium: 4rem;
 
   .hero__text {
     color: $black;
+    text-shadow: -1px 2px 2px rgba($dark-gray, 0.5);
+    letter-spacing: -1px;
     font-size: $header-size-small;
     @include breakpoint(medium) {
       font-size: $header-size-medium;
+    }
+    .kern-p-1 {
+      margin-right: -0.08rem;
+    }
+    .kern-p-2 {
+      margin-left: -0.13rem;
+    }
+    .kern-j {
+      margin-right: -0.13rem;
+    }
+    .kern-e {
+      margin-left: -0.13rem;
     }
   }
 }

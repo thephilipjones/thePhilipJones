@@ -7,13 +7,14 @@
 
     <header class="hero hide-for-print">
       <!-- <img class="hero__img"> -->
-      <h1 class="hero__text"> Philip Jones </h1>
+      <h1 class="hero__text"> <span class="kern-p-1">P</span>hili<span class="kern-p-2">p</span> <span class="kern-j">J</span>on<span class="kern-e">e</span>s </h1>
 
       {% assign active = page.url | downcase | split: '/' %}
+      <!-- {{ active[1] }} -->
       <nav role="navigation">
         <ul class="hero__subnav">
           <!-- http://zurb.com/building-blocks/header-subnav -->
-          <li><a href="/" {% if active[1] == null %}class='active'{% endif %}>Home</a></li>
+          <li><a href="/" {% if active[1] == 'index.html' %}class='active'{% elsif active[1] == null %}class='active'{% endif %}>Home</a></li>
           <li><a href="/portfolio" {% if active[1] == 'portfolio' %}class='active'{% endif %}>Portfolio</a></li>
           <li><a href="/resume" {% if active[1] == 'resume' %}class='active'{% endif %}>Resume</a></li>
           <!-- http://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar -->
