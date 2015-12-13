@@ -44,8 +44,8 @@
 // ---------
 
 $global-width: rem-calc(1200);
-$global-font-size: 100%;
-$global-lineheight: 1.45;
+$global-font-size: 16px; // 100%;
+$global-lineheight: 1.414;
 $primary-color: #2199e8;
 $secondary-color: #777;
 $success-color: #3adb76;
@@ -101,20 +101,20 @@ $header-font-style: normal;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 24,
-    'h2': 20,
-    'h3': 19,
-    'h4': 18,
-    'h5': 17,
-    'h6': 16,
+    'h1': 32, // 24
+    'h2': 28, // 20
+    'h3': 26, // 19
+    'h4': 24, // 18
+    'h5': 22, // 17
+    'h6': 20, // 16
   ),
   medium: (
-    'h1': 48,
-    'h2': 40,
-    'h3': 31,
-    'h4': 25,
-    'h5': 20,
-    'h6': 16,
+    'h1': 40, // 48
+    'h2': 32, // 40
+    'h3': 28, // 31
+    'h4': 26, // 25
+    'h5': 24, // 20
+    'h6': 20 // 16
   ),
 );
 $header-color: inherit;
