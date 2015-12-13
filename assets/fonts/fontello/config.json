@@ -1,0 +1,100 @@
+{
+  "name": "entypo-social-circles",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "91daf8fde1042a363514ca7e42d89570",
+      "css": "github-circled",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "5bbd46b2a0b972533f4d3ef243645e1d",
+      "css": "flickr-circled",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "6569bd1801e232180221ba0f6a4b8b27",
+      "css": "vimeo-circled",
+      "code": 59395,
+      "src": "entypo"
+    },
+    {
+      "uid": "0419da6446cb4f31093e2022793571ca",
+      "css": "twitter-circled",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "ce1d525f3f31024c6a6b38f5e9a88953",
+      "css": "facebook-circled",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "818a6c2a76c89800632c0335e9cdafee",
+      "css": "gplus-circled",
+      "code": 59397,
+      "src": "entypo"
+    },
+    {
+      "uid": "2e9c0fdd4d59598cb122801ab80222e7",
+      "css": "pinterest-circled",
+      "code": 59398,
+      "src": "entypo"
+    },
+    {
+      "uid": "72a6237752f5cd00a107d097adac9ce3",
+      "css": "tumblr-circled",
+      "code": 59399,
+      "src": "entypo"
+    },
+    {
+      "uid": "21adad41ffebf469b2370d26bcb8a3c4",
+      "css": "linkedin-circled",
+      "code": 59400,
+      "src": "entypo"
+    },
+    {
+      "uid": "ec3e0b50a56867ac26a6de47953b9831",
+      "css": "dribbble-circled",
+      "code": 59401,
+      "src": "entypo"
+    },
+    {
+      "uid": "e3606432570e59d4d852727bad063cd1",
+      "css": "stumbleupon-circled",
+      "code": 59402,
+      "src": "entypo"
+    },
+    {
+      "uid": "9eedcbf6e07d6ba820e3e22f5ab6f734",
+      "css": "lastfm-circled",
+      "code": 59403,
+      "src": "entypo"
+    },
+    {
+      "uid": "4d8e1f1173bab9aac8991e9eee2fa326",
+      "css": "rdio-circled",
+      "code": 59404,
+      "src": "entypo"
+    },
+    {
+      "uid": "067edf3e1f6458e782d0254e63eb5eb6",
+      "css": "spotify-circled",
+      "code": 59405,
+      "src": "entypo"
+    },
+    {
+      "uid": "8354734770d837204e6a004885240d2e",
+      "css": "skype-circled",
+      "code": 59406,
+      "src": "entypo"
+    }
+  ]
+}
