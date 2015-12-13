@@ -17,6 +17,8 @@ var reload = browserSync.reload;
 var bs;
 // Define an easy way to access Bower files
 var mainBowerFiles = require('main-bower-files');
+// Define the plugin to push to gh-pages
+var ghPages = require('gulp-gh-pages');
 
 // Deletes the directory that is used to serve the site during development
 gulp.task("clean:dev", del.bind(null, ["serve"]));
@@ -190,4 +192,12 @@ gulp.task("build", ["jekyll:prod", "styles"], function () {});
 // it and outputs it to "./site"
 gulp.task("publish", ["build"], function () {
   gulp.start("html", "copy", "images", "fonts");
+});
+
+gulp.task('deploy', ["publish"], function() {
+  return gulp.src('./site/**/*')
+    .pipe(ghPages([
+      {remoteUrl: 'git@github.com:thephilipjones/thephilipjones.github.io.git'},
+      {branch: 'master'}
+    ));
 });
