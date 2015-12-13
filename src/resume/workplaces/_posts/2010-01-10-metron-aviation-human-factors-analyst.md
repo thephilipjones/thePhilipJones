@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2010-01-10
-to-date: 2012-11-15
+to-date: 2012-11-15T00:00:00-05:00
 org: Metron Aviation
 link: http://www.metronaviation.com
 location: Dulles, VA

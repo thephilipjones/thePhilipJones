@@ -24,7 +24,11 @@ title: Resume
             <span class="workplace__date">
               <span>{{ post.date | date_to_string }}</span>
               <span> – </span>
-              <span>{% if post.to-date %}{{ post.to-date | date_to_string }}{% else %}Present{% endif %}</span>
+              <span>
+                {% if post.to-date %}
+                {{ post.to-date | date_to_string }}
+                {% else %}Present{% endif %}
+              </span>
             </span>
             {% endunless %}
           </p>
