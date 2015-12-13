@@ -1,0 +1,28 @@
+---
+layout: default
+title: Portfolio
+---
+
+<div class="portfolio container">
+  <header class="show-for-print">
+    <h1 class="name">Philip Jones</h1>
+  </header>
+  <section class="projects">
+    <ul class="section__list">
+      {% for post in site.categories['project'] %}
+          <li class="section__item project">
+            <div class="item__primary">
+              <!-- <a class="item__org" href={{ post.link }} target="_blank">
+                <h3>{{ post.org }}</h3>
+              </a>
+              <span class="item__location">{{ post.location }}</span>
+              <span class="item__date">{{ post.date }}</span> -->
+            </div>
+            <div class="item__content" style="text-align:center">
+              {{ post.content }}
+            </div>
+          </li>
+        {% endfor %}
+    </ul>
+  </section>
+</div>

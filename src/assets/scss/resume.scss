@@ -1,9 +1,9 @@
-.resume {
+.resume,
+.portfolio {
   margin-top: 2rem;
 
   @media print {
-    a.workplace__org[href],
-    a.school__org[href] {
+    a.item__org[href] {
       text-decoration: none;
       &:after {
         content: "";
@@ -43,8 +43,7 @@
 
   }
 
-  .workplace__primary,
-  .school__primary {
+  .item__primary {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -57,8 +56,7 @@
     }
   }
 
-  .workplace__secondary,
-  .school__secondary {
+  .item__secondary {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -66,18 +64,15 @@
     color: $dark-gray;
   }
 
-  .workplace__title,
-  .school__title {
+  .item__title {
 
   }
 
-  .workplace__date,
-  .school__date {
+  .item__date {
 
   }
 
-  .workplace__content,
-  .school__content {
+  .item__content {
     ul {
       list-style-type: $list-style-type;
       margin-bottom: $list-margin-bottom;
