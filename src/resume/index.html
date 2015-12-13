@@ -3,9 +3,9 @@ layout: default
 title: Resume
 ---
 
-<div class="resume">
+<div class="resume container">
   <header class="show-for-print">
-    <div class="name">Philip Jones</div>
+    <h1 class="name">Philip Jones</h1>
   </header>
   <section class="workplaces">
     <h2 class="section__header">Work Experience</h2>
@@ -19,12 +19,14 @@ title: Resume
             <span class="workplace__location">{{ post.location }}</span>
           </div>
           <p class="workplace__secondary">
+            {% unless post.title == '' %}
             <span class="workplace__title">{{ post.title }}</span>
             <span class="workplace__date">
               <span>{{ post.date | date_to_string }}</span>
               <span> – </span>
-              <span>{{ post.to-date | date_to_string }}</span>
+              <span>{% if post.to-date %}{{ post.to-date | date_to_string }}{% else %}Present{% endif %}</span>
             </span>
+            {% endunless %}
           </p>
           <div class="workplace__content">
             {{ post.content }}
