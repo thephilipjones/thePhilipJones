@@ -38,6 +38,8 @@ The main SCSS file importing everything
 @include foundation-float-classes;
 
 @include foundation-callout;
+@include foundation-dropdown-menu;
+@include foundation-menu;
 
 
 // Load this when using social buttons.

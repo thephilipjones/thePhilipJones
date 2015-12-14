@@ -12,5 +12,12 @@
 // # Invoke Foundation.
 $(document).foundation();
 
+$(window).load(function() {
+  // # Create export dropdown
+  // $('#drop-export').DropdownMenu();
+  var dropdownExport = new Foundation.DropdownMenu($('#drop-export'));
+  // if (dropdownExport) { console.log("Dropdown") };
+});
+
 // # Invoke highlight.js on page load.
 // hljs.initHighlightingOnLoad()
