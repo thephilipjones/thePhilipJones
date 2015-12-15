@@ -4,6 +4,7 @@ title: PhilipJon.es
 description: Personal portfolio site
 tagline: the Philip Jones.
 url: localhost:4000
+cdn_path: https://dl.dropboxusercontent.com/u/373585/portfolio
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
