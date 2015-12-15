@@ -10,7 +10,13 @@
 // %>
 
 // # Invoke Foundation.
-$(document).foundation();
+// $(document).foundation();
+//
+// $(window).load(function() {
+//
+//   // # Load Orbit
+//   $('.orbit').orbit();
+// });
 
 // # Invoke highlight.js on page load.
 // hljs.initHighlightingOnLoad()
