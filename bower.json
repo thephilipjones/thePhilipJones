@@ -1,5 +1,7 @@
 {
   "name": "philipjon-es",
   "version": "0.0.0",
-  "dependencies": {}
+  "dependencies": {
+    "motion-ui": "~1.1.1"
+  }
 }
