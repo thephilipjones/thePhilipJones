@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2014-01-01T00:00:00-0500
+date: 2012-11-01T00:00:00-0500
 to-date:
 org: Logi Analytics
-link: http://www.logianalytics.com
+link:
 title: Music Dashboard
 categories: project
 

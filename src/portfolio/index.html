@@ -12,13 +12,27 @@ title: Portfolio
       {% for post in site.categories['project'] %}
           <li class="section__item project">
             <div class="item__primary">
-              <!-- <a class="item__org" href={{ post.link }} target="_blank">
-                <h3>{{ post.org }}</h3>
-              </a>
-              <span class="item__location">{{ post.location }}</span>
-              <span class="item__date">{{ post.date }}</span> -->
+              <% unless post.link == '' %>
+                <a class="item__org" href={{ post.link }} target="_blank">{% endif %}
+                <h3>{{ post.title }}</h3>
+              <% if post.link %>
+              </a>{% endif %}
             </div>
-            <div class="item__content" style="text-align:center">
+            <p class="item__secondary">
+              {% unless post.location == '' %}
+              <span class="item__location">{{ post.location }}</span>
+              {% endunless %}
+              <span class="item__date">
+                <span>{{ post.date | date_to_string }}</span>
+                <span> – </span>
+                <span>
+                  {% if post.to-date %}
+                  {{ post.to-date | date_to_string }}
+                  {% else %}Present{% endif %}
+                </span>
+              </span>
+            </p>
+            <div class="item__content">
               {{ post.content }}
             </div>
           </li>
