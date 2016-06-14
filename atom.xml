@@ -4,13 +4,73 @@
  <title>PhilipJon.es</title>
  <link href="http://philipjon.es//atom.xml" rel="self"/>
  <link href="http://philipjon.es//"/>
- <updated>2015-12-16T09:04:09-05:00</updated>
+ <updated>2016-06-14T17:18:09-04:00</updated>
  <id>http://philipjon.es/</id>
  <author>
    <name>Philip Jones</name>
    <email>philip@thephilipjones.com</email>
  </author>
 
+ 
+ <entry>
+   <title>UX/UI Designer</title>
+   <link href="http://philipjon.es//resume/workplaces/workplace/2014/01/01/logi-analytics-ux-designer.html"/>
+   <updated>2014-01-01T00:00:00-05:00</updated>
+   <id>http://philipjon.es//resume/workplaces/workplace/2014/01/01/logi-analytics-ux-designer</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;End-to-end product development. Learning, designing, building, testing, repeat.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Designed user interfaces:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Designed at &lt;strong&gt;Sketch level&lt;/strong&gt; with &lt;span class=&quot;skill&quot;&gt;whiteboards&lt;/span&gt; and directed stakeholder conversation&lt;/li&gt;
+&lt;li&gt;Designed at &lt;strong&gt;Wireframe level&lt;/strong&gt; with &lt;span class=&quot;skill&quot;&gt;Balsamiq&lt;/span&gt; and &lt;span class=&quot;skill&quot;&gt;Powerpoint&lt;/span&gt; and &lt;span class=&quot;skill&quot;&gt;Keynote&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Designed at &lt;strong&gt;Mockup level&lt;/strong&gt; with &lt;span class=&quot;skill&quot;&gt;Sketch&lt;/span&gt; and &lt;span class=&quot;skill&quot;&gt;Illustrator&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Designed at &lt;strong&gt;Prototype level&lt;/strong&gt; with &lt;span class=&quot;skill&quot;&gt;Axure RP&lt;/span&gt; and &lt;span class=&quot;skill&quot;&gt;HTML/CSS/JS frameworks&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Established best practices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Utilized &lt;strong&gt;psychology background&lt;/strong&gt; to ensure &lt;span class=&quot;skill&quot;&gt;Gestalt visual structure&lt;/span&gt; and &lt;span class=&quot;skill&quot;&gt;information architecture&lt;/span&gt; paradigms are satisfied&lt;/li&gt;
+&lt;li&gt;Utilized &lt;strong&gt;design background&lt;/strong&gt; to ensure &lt;span class=&quot;skill&quot;&gt;color relationships&lt;/span&gt; and &lt;span class=&quot;skill&quot;&gt;typography hierarchy&lt;/span&gt; are intuitive&lt;/li&gt;
+&lt;li&gt;Utilized &lt;strong&gt;web-native background&lt;/strong&gt; to ensure &lt;span class=&quot;skill&quot;&gt;content strategy&lt;/span&gt; needs and platform expectations are met&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Managed product and feature development:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Engaged with product managers in &lt;span class=&quot;skill&quot;&gt;Agile&lt;/span&gt; methodology&lt;/li&gt;
+&lt;li&gt;Wrote &lt;span class=&quot;skill&quot;&gt;epics&lt;/span&gt; as feature plans to capture stakeholder wishes and satisfy user needs&lt;/li&gt;
+&lt;li&gt;Broke epics into &lt;span class=&quot;skill&quot;&gt;user stories&lt;/span&gt; to explain complex interactions and functionality to the smallest level&lt;/li&gt;
+&lt;li&gt;Managed day-to-day decision-making in a hands-on fashion by sitting among developers answering detail-oriented questions and producing assets on-the-fly where needed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Built front-end architectures from scratch:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Created &lt;span class=&quot;skill&quot;&gt;LESS framework&lt;/span&gt; to allow easy customer theme customization&lt;/li&gt;
+&lt;li&gt;Created &lt;span class=&quot;skill&quot;&gt;AngularJS directive templates&lt;/span&gt; to simplify document structure and make other developers&amp;rsquo; lives easier&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Designed and analyzed user tests to validate product directions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gathered participants in a &lt;span class=&quot;skill&quot;&gt;user community&lt;/span&gt; database&lt;/li&gt;
+&lt;li&gt;Screened participants using &lt;span class=&quot;skill&quot;&gt;UserTesting.com&lt;/span&gt; to pluck quality testers from millions of less-qualified applicants&lt;/li&gt;
+&lt;li&gt;Designed tests from an &lt;span class=&quot;skill&quot;&gt;experimental psychology&lt;/span&gt; background, particularly using the &lt;span class=&quot;skill&quot;&gt;HEART framework&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Analyzed user tests by listening to talk-aloud feedback and watching for tiny subconscious actions to confirm or reshape hypotheses&lt;/li&gt;
+&lt;li&gt;Reported user test findings in slide decks and videos to capture major takeaways, anywhere from a developer or executive level of detail&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Elicited product needs through user research:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Discovered user intentions through the &lt;span class=&quot;skill&quot;&gt;&amp;ldquo;Job-to-be-Done&amp;rdquo;&lt;/span&gt; methodology during &lt;span class=&quot;skill&quot;&gt;requirements gathering&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Discovered stakeholder intentions through &lt;span class=&quot;skill&quot;&gt;interviews&lt;/span&gt; and &lt;span class=&quot;skill&quot;&gt;competitive analysis&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Connected the dots with &lt;span class=&quot;skill&quot;&gt;persona development&lt;/span&gt; to satisfy goals and motivations while avoiding specific frustrations&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>UX/UI Designer</title>
@@ -40,6 +100,7 @@
 &lt;ul&gt;
 &lt;li&gt;Demonstrated software on sales calls&lt;/li&gt;
 &lt;li&gt;Impressed technical prospects at trade shows&lt;/li&gt;
+&lt;li&gt;Managed servers and databases to enhance domain understanding&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Designed and developed enhancements to Logi Ad Hoc:&lt;/p&gt;
@@ -49,6 +110,107 @@
 &lt;li&gt;Enhanced functionality as scope allowed with &lt;span class=&quot;skill&quot;&gt;UX design&lt;/span&gt; &amp;ldquo;finishing touches&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;Improved &lt;span class=&quot;skill&quot;&gt;graphic design&lt;/span&gt; layout and images&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Music Dashboard</title>
+   <link href="http://philipjon.es//portfolio/project/2012/11/01/logi-analytics-music-dashboard.html"/>
+   <updated>2012-11-01T01:00:00-04:00</updated>
+   <id>http://philipjon.es//portfolio/project/2012/11/01/logi-analytics-music-dashboard</id>
+   <content type="html">&lt;p&gt;I was asked to create a sample application to audition for the Web App Developer position at Logi Analytics. After considering a few ideas, I realized that I could finally put my ridiculous collection of personal music data to use&amp;hellip; and hopefully learn a lot along the way.&lt;/p&gt;
+
+&lt;p&gt;Armed with a database dump of my Last.FM song play data since 2006 and a spreadsheet of every concert I&amp;rsquo;ve attended since before that, I figured I could correlate the two based on common artists.&lt;/p&gt;
+
+&lt;p&gt;I began, as usual, by whiteboarding ideas and quickly creating a series of Balsamiq wireframes to sketch out the concepts I had in mind. The goal was to combine these data sources and use a single control area to analyze the results.&lt;/p&gt;
+
+&lt;div class=&quot;orbit&quot; role=&quot;region&quot; aria-label=&quot;Balsamiq mockups&quot; data-orbit data-options=&quot;timerDelay:8000;pauseOnHover:true;navButtons:true;bullets:true;&quot;&gt;
+  
+&lt;ul class=&quot;orbit-container&quot;&gt;
+  &lt;button class=&quot;orbit-previous&quot; aria-label=&quot;previous&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;Previous Slide&lt;/span&gt;&amp;#9664;&lt;/button&gt;
+  &lt;button class=&quot;orbit-next&quot; aria-label=&quot;next&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;Next Slide&lt;/span&gt;&amp;#9654;&lt;/button&gt;
+
+  
+&lt;li class=&quot;orbit-slide&quot;&gt;
+  &lt;div&gt;
+&lt;img class=&quot;orbit-image&quot; src=&quot;https://dl.dropboxusercontent.com/u/373585/portfolio/music-dashboard/wireframe-1.png&quot; /&gt;
+&lt;figcaption class=&quot;orbit-caption&quot;&gt;The first image&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+  
+&lt;li class=&quot;orbit-slide&quot;&gt;
+  &lt;div&gt;
+&lt;img class=&quot;orbit-image&quot; src=&quot;https://dl.dropboxusercontent.com/u/373585/portfolio/music-dashboard/wireframe-2.png&quot; /&gt;
+&lt;figcaption class=&quot;orbit-caption&quot;&gt;The second image&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+  
+&lt;/ul&gt;
+&lt;nav class=&quot;orbit-bullets&quot;&gt;
+  
+&lt;button data-slide=&quot;0&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;1 slide details.&lt;/span&gt;&lt;/button&gt;
+  
+&lt;button data-slide=&quot;1&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;2 slide details.&lt;/span&gt;&lt;/button&gt;
+  
+&lt;/nav&gt;
+  
+&lt;/div&gt;
+  
+
+&lt;p&gt;I created a Logi Info application with custom CSS, web fonts, and graphics.&lt;/p&gt;
+
+&lt;p&gt;I learned .&lt;/p&gt;
+
+&lt;div class=&quot;orbit&quot; role=&quot;region&quot; aria-label=&quot;Logi Info screenshots&quot; data-orbit data-options=&quot;timerDelay:8000;pauseOnHover:true;navButtons:true;bullets:true;&quot;&gt;
+  
+&lt;ul class=&quot;orbit-container&quot;&gt;
+  &lt;button class=&quot;orbit-previous&quot; aria-label=&quot;previous&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;Previous Slide&lt;/span&gt;&amp;#9664;&lt;/button&gt;
+  &lt;button class=&quot;orbit-next&quot; aria-label=&quot;next&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;Next Slide&lt;/span&gt;&amp;#9654;&lt;/button&gt;
+
+  
+&lt;li class=&quot;orbit-slide&quot;&gt;
+  &lt;div&gt;
+&lt;img class=&quot;orbit-image&quot; src=&quot;https://dl.dropboxusercontent.com/u/373585/portfolio/music-dashboard/screenshot-1.png&quot; /&gt;
+&lt;figcaption class=&quot;orbit-caption&quot;&gt;The third image&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+  
+&lt;li class=&quot;orbit-slide&quot;&gt;
+  &lt;div&gt;
+&lt;img class=&quot;orbit-image&quot; src=&quot;https://dl.dropboxusercontent.com/u/373585/portfolio/music-dashboard/screenshot-2.png&quot; /&gt;
+&lt;figcaption class=&quot;orbit-caption&quot;&gt;Another slideshow, first image&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+  
+&lt;li class=&quot;orbit-slide&quot;&gt;
+  &lt;div&gt;
+&lt;img class=&quot;orbit-image&quot; src=&quot;https://dl.dropboxusercontent.com/u/373585/portfolio/music-dashboard/screenshot-3.png&quot; /&gt;
+&lt;figcaption class=&quot;orbit-caption&quot;&gt;Another slideshow, second image&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+  
+&lt;li class=&quot;orbit-slide&quot;&gt;
+  &lt;div&gt;
+&lt;img class=&quot;orbit-image&quot; src=&quot;https://dl.dropboxusercontent.com/u/373585/portfolio/music-dashboard/screenshot-4.png&quot; /&gt;
+&lt;figcaption class=&quot;orbit-caption&quot;&gt;Another slideshow, third image&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+  
+&lt;/ul&gt;
+&lt;nav class=&quot;orbit-bullets&quot;&gt;
+  
+&lt;button data-slide=&quot;0&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;1 slide details.&lt;/span&gt;&lt;/button&gt;
+  
+&lt;button data-slide=&quot;1&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;2 slide details.&lt;/span&gt;&lt;/button&gt;
+  
+&lt;button data-slide=&quot;2&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;3 slide details.&lt;/span&gt;&lt;/button&gt;
+  
+&lt;button data-slide=&quot;3&quot;&gt;&lt;span class=&quot;show-for-sr&quot;&gt;4 slide details.&lt;/span&gt;&lt;/button&gt;
+  
+&lt;/nav&gt;
+  
+&lt;/div&gt;
+  
 </content>
  </entry>
  
